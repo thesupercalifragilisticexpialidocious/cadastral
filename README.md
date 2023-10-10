@@ -4,16 +4,24 @@ The app accepts requests specifying a cadastral number, latitude and longitude, 
 
 Admin panel: http://127.0.0.1:8000/admin/
 
+
 Interactive Swagger documentation: http://127.0.0.1:8000/docs/
 
+
 Endpoints:
+
+
 /query : post a query (returns a query json with assigned id)
+
 
 /result : get the most recent query (can take up to a minute to check the query)
 
+
 /result/{id} : get any query with given id
 
+
 /history : get all queries
+
 
 /ping : test if server is online (returns current time)
 
